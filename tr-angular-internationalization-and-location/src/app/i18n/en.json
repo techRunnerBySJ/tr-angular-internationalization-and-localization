@@ -1,0 +1,7 @@
+{
+  "welcome.title": "Welcome to Angular i18n Localization",
+  "welcome.message": "This is a demo of internationalization and localization in Angular.",
+  "menu.home": "Home",
+  "menu.about": "About",
+  "menu.contact": "Contact"
+}

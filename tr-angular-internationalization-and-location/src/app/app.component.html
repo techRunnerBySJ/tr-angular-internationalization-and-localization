@@ -1,0 +1,16 @@
+<div>
+  <nav>
+    <ul>
+      <li><a href="#">{{ 'menu.home' | translate }}</a></li>
+      <li><a href="#">{{ 'menu.about' | translate }}</a></li>
+      <li><a href="#">{{ 'menu.contact' | translate }}</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <h1>{{ 'welcome.title' | translate }}</h1>
+    <p>{{ 'welcome.message' | translate }}</p>
+    <button (click)="switchLanguage('en')">English</button>
+    <button (click)="switchLanguage('fr')">French</button>
+    <button (click)="switchLanguage('es')">Spanish</button>
+  </div>
+</div>
